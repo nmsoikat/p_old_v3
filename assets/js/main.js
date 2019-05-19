@@ -175,7 +175,7 @@ document.addEventListener("touchstart", function() {},false);
 
 	        $(function() {
 	            element.typed({
-	                strings: ["Front End Developer", "React-JS","JavaScript / jQuery", "HTML / CSS / Bootstrap","Git / GitHub / Sass / Gulp"],
+	                strings: ["Front End Developer", "React-JS","JavaScript / jQuery", "HTML / CSS / Bootstrap","Git / GitHub / Sass"],
 	                typeSpeed: 100,
 	                loop: true,
 	            });
