@@ -1,0 +1,592 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+
+
+    .timeline > li > .timeline-panel{
+        width: 45%;
+    }
+    .navFixedBg ul.nav li a {
+        padding: 18px 20px;
+        color: #222;
+    }
+
+    .video-wrap {
+        top: -36%;
+        left: -36%;
+        width: 200%;
+        height: 200%;
+    }
+
+    .mystats-bg {
+        height: 75%;
+    } 
+    .experience-blog-item-text {
+        height: 345px;
+    }
+
+    .bg-opacity-img {
+        height: 75%;
+    }
+
+    .lets-work-area {
+        height: 50%;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-me-text-area {
+        margin-top: 64%;
+    }
+    .parson-image {
+        left: 50%;
+        margin-left: -175px;
+    }
+
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        padding-top: 55px;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        left: 50%;
+        font-weight: 400;
+        margin: 10px 0 20px 80px;
+        text-align: left;
+        top: 0;
+    }
+    .timeline .experience-content {
+        margin: 10px 0 0;
+        text-align: left;
+    }  
+    #about .icon-holder i {
+        left: 6%;
+    }
+    #about .icon-holder .tab-content-title {
+        left: 6%;
+    }    
+    /*-------------------------------*/
+
+
+.video-wrap {
+    top: -54%;
+    left: -54%;
+    width: 200%;
+    height: 200%;
+}
+
+.hero-area {
+    height: 100%;
+}
+
+.navbar-brand > img {
+    height: 36px;
+}
+
+ul.nav li a {
+    padding: 9px 16px;
+    font-size: 15px;
+}
+.navFixedBg ul.nav li a {
+    padding: 11px 16px;
+}
+
+header.navFixedBg .navbar-brand > img {
+    height: 36px;
+    margin-top: 3px;
+}
+ul.navbar-nav li a::before {
+    bottom: -6px;
+}
+.navFixedBg a img.logo-white{
+    height: 0;
+    opacity: 0;
+}
+header.navFixedBg {
+    height: 50px;
+}
+.hero-area-bg h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.counter ,.about-me-text-area,.form-area {
+    margin-bottom: 50px;
+}
+
+.mystats-bg {
+    height: 100%;
+}
+
+
+.experience-blog-item-text {
+    height: 320px;
+}
+
+.bg-opacity-img {
+    height: 78%;
+}
+
+.lets-work-area {
+    height: 25%;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .parson-image {
+        left: 50%;
+        margin-left: -130px;
+        max-width: 270px;
+        top: 5%;
+    }
+    .about-me-text-area {
+        margin-top: 150%;
+    }
+
+
+/*timeline*/
+    .about-timeline-style .nav.nav-tabs, .about-box-style .nav.nav-tabs {
+        max-width: 100%;
+    }
+
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        padding-top: 55px;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        left: 50%;
+        font-weight: 400;
+        margin: 10px 0 20px 80px;
+        text-align: left;
+        top: 0;
+    }
+    .timeline .experience-content {
+        margin: 10px 0 0;
+        text-align: left;
+    }
+     .progressbar-wrap .col-xs-3 {
+            width: 50%;
+        }   
+    /* header area fixed korle  nav bar collapse ar joono aituku labe*/
+
+        /* ai ta te choto menu ke collapse korar por tar (backgroud ,color ,width ) ai gula change kora jabe*/
+    #myNavbar {
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 0px;
+        position: absolute;
+        right:  0px;
+        top: 0px;
+        width: 100%;
+    }    
+
+    /* background problem hoi ai jonno media te ante hoce*/
+
+
+    /*menu left na  right pase thake ta deyar jonno*/ 
+ 		ul.nav.navbar-nav {
+        	float:  left;
+	        width: 100%;
+	        margin:  0px;
+	        padding: 0px;
+    	}
+    /*
+        manu end korar somoi right hoye jai 
+        media te code ante hoice...
+    */
+
+
+    /*nav fixed*/
+    .navFixedBg #myNavbar {
+        background-color: #fff;
+        top:-12px;
+    }
+   .navFixedBg .navbar-toggle .icon-bar {
+        background: #0095eb;
+        transition: .3s;
+        width: 30px;
+        height: 3px;
+    }
+
+    .navFixedBg .navbar-toggle {
+         margin-top: 12px;
+    }
+
+
+/*------------------------------*/
+
+.video-wrap {
+    top: -60%;
+    width: 330%;
+    height: 220%;
+}
+.hero-area {
+    height: 70%;
+}
+.navbar-brand > img {
+    height: 30px;
+}
+
+ul.nav li a {
+    padding: 9px 16px;
+    font-size: 15px;
+}
+.navFixedBg ul.nav li a {
+    padding: 11px 16px;
+}
+
+header.navFixedBg .navbar-brand > img {
+    height: 30px;
+    margin-top: 3px;
+}
+ul.navbar-nav li a::before {
+    bottom: -6px;
+}
+.navFixedBg a img.logo-white{
+    height: 0;
+    opacity: 0;
+}
+header.navFixedBg {
+    height: 50px;
+}
+
+
+.hero-area-bg h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.hero-area-bg h4 {
+    font-size: 14px;
+}
+
+.typed .type-here, .typed span.typed-cursor {
+    font-size: 16px;
+}
+
+.hover-btn a {
+    padding: 1px 15px;
+    font-size: 14px;
+}
+
+.socila-icon-wrap a {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+.socila-icon-wrap i {
+    height: 188%;
+    font-size: 16px;
+}
+a.icon:hover i {
+    margin-top: -29px;
+}
+
+.navbar-toggle {
+    margin-top: 8px;
+}
+.navFixedBg .navbar-toggle {
+    margin-top: 0px;
+}
+
+.section-title {
+    padding: 50px 0px;
+}
+.section-title h2 {
+    font-size: 24px;
+}
+.section-title h2::before {
+    width: 100px;
+    margin-left: -50px;
+}
+.section-title h2::after {
+    top: 89%;
+}
+
+
+
+.mystats-bg {
+    height: 100%;
+    display: table;
+}
+
+.experience-blog-item-text {
+    height: 320px;
+}
+
+.bg-opacity-img {
+    height: 40%;
+}
+
+.lets-work-area {
+    height: 25%;
+}
+.lets-work-area {
+  display: table;
+}
+.lets-work-area h1 {
+  font-size: 24px;
+}
+.lets-work-area p {
+  font-size: 14px;
+}
+.lets-work-area .ancor-btn {
+  margin-top: 10px;
+}
+
+.experience-blog-item::after {
+    left: 14px;
+    bottom: 0%;
+}
+
+.ancor-btn button[type="submit"] {
+    padding: 10px;
+}
+
+.counter ,.about-me-text-area,.form-area {
+    margin-bottom: 50px;
+}
+
+.address-area p span {
+    margin-left: 52px;
+}
+
+.address-area p i {
+    font-size: 16px;
+    margin-right: -22px;
+}
+
+
+.ancor-btn a, .ancor-btn button[type="submit"] {
+  padding: 4px 15px;
+}
+.bg-opacity-img {
+  height: 100%;
+}
+.portfolio-menu-area ul li {
+  display: block;
+  margin: 0px 33px;
+}
+.about-me-text-area .ancor-btn {
+  display: block;
+  text-align: center;
+  margin: 23px 26px;
+}
+.about-me-text-area a {
+  display: block;
+}
+
+
+
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .about-me-text-area {
+        margin-top: 90%;
+    }
+    .parson-image {
+        left: 50%;
+        margin-left: -175px;
+    }
+.experience-blog-item-text {
+    height: 396px;
+}
+.bg-opacity-img {
+    height: 67%;
+}
+
+.parson-image {
+    margin-left: -150px;
+}
+.parson-image {
+    top: 10%;
+    max-width: 300px;
+}
+
+    .video-wrap {
+        top: -60%;
+        left: -60%;
+    }
+    .hero-area {
+        height: 100%;
+    }
+#about .icon-holder i {
+    left: 6%;
+}
+#about .icon-holder .tab-content-title {
+    left: 6%;
+}
+.hero-area-bg h2 {
+    font-size: 45px;
+    margin-top: 15px 0px;
+}
+.hero-area-bg h4 {
+    font-size: 24px;
+}
+.typed .type-here, .typed span.typed-cursor {
+    font-size: 30px;
+}
+.hover-btn a {
+    padding: 6px 30px;
+    font-size: 20px;
+}
+
+.socila-icon-wrap a {
+width: 45px;
+height: 45px;
+margin: 5px;
+}
+.socila-icon-wrap i {
+    height: 188%;
+    font-size: 28px;
+}
+a.icon:hover i {
+    margin-top: -40px;
+}
+
+.about-me-text-area .ancor-btn {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+.about-me-text-area a {
+  display: block;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 756px) { 
+    .about-me-text-area {
+        margin-top: 70%;
+    }
+}
+
+@media screen and ( max-width: 479px){
+    .portfolio-area-wrapper .col-xs-6,.what-i-do .col-xs-6 {
+        width: 100%;
+    }
+    .about-me-text-area {
+        margin-top: 100%;
+    }
+
+
+}
+@media only screen and (min-width: 361px) and (max-width: 400px) { 
+    .about-me-text-area {
+        margin-top: 120%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    #about .icon-holder i,#about .icon-holder .tab-content-title  {
+        left: 17%;
+    }
+
+    .timeline li p.date, .timeline li p.date-inverted {
+        margin: 10px 0 20px 70px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        width: 155px;
+    }
+    .timeline > li > .timeline-panel {
+        padding: 20px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        font-size: 16px;
+    }
+
+    .nav-tabs > li {
+        display: block;
+        margin: 11px 29px;
+    }
+    .about-me-text-area {
+        margin-top: 130%;
+    }
+
+}
+
+/* last*/
+@media screen and (max-width: 320px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .about-me-text-area {
+        margin-top: 145%;
+    }
+
+    #about .icon-holder i,#about .icon-holder .tab-content-title  {
+        left: 17%;
+    }
+
+    .timeline li p.date, .timeline li p.date-inverted {
+        width: 135px;
+    }
+    .timeline li p.date, .timeline li p.date-inverted {
+        font-size: 14px;
+    }
+    .nav-tabs > li {
+        display: block;
+        margin: 11px 29px;
+    }
+    .progressbar-wrap .col-xs-3, 
+    .progressbar-wrap .col-xs-6 {
+        width: 100%
+    }
+}
